@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Coupon</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div id="divUno" class="bg-body-tertiary border-top border-start border-end">
+                    <p class="w-50 mx-auto">TODOS NUESTROS PRODUCTOS</p>
+                </div>
+                <div id="divDos" class="border-start border-end justify-content-center">
+                    <div>
+                        <p>50%</p>
+                        <p>OFF</p>
+                    </div>
+                </div>
+                <div id="divTres" class="bg-body-tertiary border-start border-end">
+                    <div>
+                        <p><span class="fw-bold text-secondary">¡Aprovecha esta oferta mientras puedas!</span> Para poder
+                            obtener un código de descuento debes aceptar nuestros término y condiciones.</p>
+                        <div>
+                            <input id="checkbox" name="checkbox" type="checkbox">
+                            <label for="checkbox" class="mt-3">Términos y Condiciones</labelfor>
+                        </div>
+                    </div>
+                </div>
+                <div id="divCuatro" class="border-start border-end border-bottom">
+                    <a class="pt-4 text-info" onclick="mostrarCodigo()" href="#">OBTENER CÓDIGO DE DESCUENTO</a>
+                    <p id="codigo"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</body>
+
+</html>
